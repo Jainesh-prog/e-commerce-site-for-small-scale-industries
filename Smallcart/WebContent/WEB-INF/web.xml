@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>smallcart1</display-name>
+  <servlet> 
+  <servlet-name>reg</servlet-name>
+  <servlet-class>jdbc.registration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>reg</servlet-name>
+  <url-pattern>/regServlet</url-pattern>
+  </servlet-mapping>
+  <servlet> 
+  <servlet-name>login</servlet-name>
+  <servlet-class>jdbc.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>login</servlet-name>
+  <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet> 
+  <servlet-name>sellreg</servlet-name>
+  <servlet-class>jdbc.sellerReg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>sellreg</servlet-name>
+  <url-pattern>/sellregServlet</url-pattern>
+  </servlet-mapping>
+  <servlet> 
+  <servlet-name>selllogin</servlet-name>
+  <servlet-class>jdbc.sellerLog</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>selllogin</servlet-name>
+  <url-pattern>/sellerloginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet> 
+  <servlet-name>addblog</servlet-name>
+  <servlet-class>jdbc.addblog</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>addblog</servlet-name>
+  <url-pattern>/addblogServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet> 
+  <servlet-name>addproduct</servlet-name>
+  <servlet-class>jdbc.addproduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>addproduct</servlet-name>
+  <url-pattern>/addproductServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet> 
+  <servlet-name>addcategory</servlet-name>
+  <servlet-class>jdbc.addcategory</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>addcategory</servlet-name>
+  <url-pattern>/addcategoryServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet> 
+  <servlet-name>Product_category</servlet-name>
+  <servlet-class>jdbc.Product_category</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Product_category</servlet-name>
+  <url-pattern>/Product_categoryServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet> 
+  <servlet-name>CartServlet</servlet-name>
+  <servlet-class>jdbc.CartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>CartServlet</servlet-name>
+  <url-pattern>/CartServletServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet> 
+  <servlet-name>CartServlet2</servlet-name>
+  <servlet-class>jdbc.CartServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>CartServlet2</servlet-name>
+  <url-pattern>/CartServletServlet2</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet> 
+  <servlet-name>adminlogin</servlet-name>
+  <servlet-class>jdbc.AdminLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>adminlogin</servlet-name>
+  <url-pattern>/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+</web-app>

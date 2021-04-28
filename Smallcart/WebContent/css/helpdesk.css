@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+.form
+  {
+	margin:10px auto;
+	max-width: 500px;
+	padding: 10px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+
+.form label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+
+
+.input
+{
+  width: 40vw;
+  height: 4vh
+}
+
+#heading
+{
+  background-color:#124559;
+  color: white;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+  text-align: center;
+}
+
+.form .required{
+	color:red;
+}

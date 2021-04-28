@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+.head
+{
+  font-size: 3.5vw;
+  background-color: #CC3000;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  text-align: center;
+  font-family: Kanit;
+  color: white;
+}
+
+.card
+{
+  align-content: center;
+}
+
+#email
+{
+  font-size: 3.8vh;
+  font-family: Roboto Slab;
+  text-align: center;
+  font-weight: bold;
+}
+
+#email a
+{
+  font-size: 3vh;
+  font-family: Catamaran;
+  text-align: center;
+}
